@@ -5,48 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36885884-e905-465b-8275-049176635682" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/System Design Classs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/BankAPIAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/BankPlatforms/IciciBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/BankPlatforms/YesBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/IciciBankAPIAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/PhonePe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/YesBankAPIAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Builder/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Builder/InvalidGradYearException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Builder/InvalidNameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Builder/InvalidYoeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Builder/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/components/AndroidUIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/components/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/components/Flutter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/components/IosUIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/components/SupportedPlatform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/components/UIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/components/UIFactoryFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/components/button/AndroidButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/components/button/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/components/button/Iosbutton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/components/dropdown/AndroidDropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/components/dropdown/DropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/components/dropdown/IosDropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/components/menu/AndroidMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/components/menu/IosMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/components/menu/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/IntelligentStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/Prototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/StudentRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Singleton/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Calendly/Calendly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Calendly/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Calendly/GoogleMeetAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Calendly/PlatformAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Calendly/Platforms/GoogleMeetAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Calendly/Platforms/TeamsAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Calendly/Platforms/ZoomAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Calendly/TeamsAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Calendly/ZoomAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +48,31 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="DesignPatterns.Calendly" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Calendly.Client" />
+      <module name="System Design Classs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPatterns.Calendly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
