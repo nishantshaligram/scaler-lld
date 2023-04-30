@@ -5,15 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36885884-e905-465b-8275-049176635682" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Calendly/Calendly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Calendly/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Calendly/GoogleMeetAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Calendly/PlatformAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Calendly/Platforms/GoogleMeetAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Calendly/Platforms/TeamsAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Calendly/Platforms/ZoomAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Calendly/TeamsAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Calendly/ZoomAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Decorator/IceCream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Decorator/OrangeCone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Stratergy/BikePathCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Stratergy/CarPathCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Stratergy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Stratergy/Maps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Stratergy/PathCalculatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Stratergy/PathCalculatorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Stratergy/WalkPathCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/parkinglot/model/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/tictactoe/exception/InvalidGameConstructionParameterException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/tictactoe/models/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/tictactoe/models/Bot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/tictactoe/models/BotDifficultyLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/tictactoe/models/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/tictactoe/models/CellState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/tictactoe/models/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/tictactoe/models/GameStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/tictactoe/models/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/tictactoe/models/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/tictactoe/models/PlayerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/tictactoe/strategies/OrderOneGameWinningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/tictactoe/strategies/botPlayingStrategy/BotPlayingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/tictactoe/strategies/gameWinningStrategy/GameWinningStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -49,11 +65,16 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="projects.tictactoe.strategies" />
+      <recent name="projects.tictactoe.exception" />
+      <recent name="projects.tictactoe.models" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="DesignPatterns.Calendly" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DesignPatterns.Stratergy.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.Calendly.Client" />
       <module name="System Design Classs" />
@@ -67,8 +88,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DesignPatterns.Stratergy.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Stratergy.Client" />
+      <module name="System Design Classs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPatterns.Stratergy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DesignPatterns.Stratergy.Client" />
         <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
